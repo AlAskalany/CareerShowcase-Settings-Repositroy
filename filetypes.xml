@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="klib" type="ARCHIVE" />
+      <mapping pattern=".gitignore_global" type="Git file" />
+      <removed_mapping ext="db" approved="true" type="SQL" />
+      <removed_mapping ext="workdb" approved="true" type="Native" />
+    </extensionMap>
+  </component>
+</application>

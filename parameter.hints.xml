@@ -1,0 +1,23 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Kotlin">
+        <added pattern="org.gradle.kotlin.dsl.implementation(dependencyNotation)" />
+        <added pattern="org.gradle.kotlin.dsl.kapt(dependencyNotation)" />
+        <added pattern="org.gradle.kotlin.dsl.androidTestImplementation(dependencyNotation)" />
+        <added pattern="org.gradle.kotlin.dsl.testImplementation(dependencyNotation)" />
+        <added pattern="com.android.build.gradle.internal.dsl.BaseAppModuleExtension.compileSdkVersion(apiLevel)" />
+        <added pattern="com.android.build.gradle.internal.dsl.DefaultConfig.minSdkVersion(minSdkVersion)" />
+        <added pattern="com.android.build.gradle.internal.dsl.DefaultConfig.targetSdkVersion(targetSdkVersion)" />
+        <added pattern="org.gradle.api.NamedDomainObjectContainer.getByName(name,configureAction)" />
+        <added pattern="com.android.build.gradle.internal.dsl.BaseAppModuleExtension.getDefaultProguardFile(name)" />
+        <added pattern="org.gradle.kotlin.dsl.PluginDependenciesSpecScope.id(id)" />
+        <added pattern="org.gradle.kotlin.dsl.ScriptHandlerScope.classpath(dependencyNotation)" />
+        <added pattern="org.gradle.kotlin.dsl.register(name,type,configurationAction)" />
+      </blacklist>
+    </blacklists>
+    <option id="SHOW_PROPERTY_HINT" value="true" />
+    <option id="SHOW_PARAMETER_TYPE_HINT" value="true" />
+    <option id="SHOW_LAMBDA_IMPLICIT_PARAMETER_RECEIVER" value="false" />
+  </component>
+</application>

@@ -1,0 +1,24 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="Encoding" addBOMForNewFiles="with NO BOM" />
+      <component name="PropertiesComponent">
+        <property name="android.project.structure.proportion" value="0.15" />
+        <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+        <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Kotlin" />
+      </component>
+      <component name="RunDashboard">
+        <option name="ruleStates">
+          <list>
+            <RuleState>
+              <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+            </RuleState>
+            <RuleState>
+              <option name="name" value="StatusDashboardGroupingRule" />
+            </RuleState>
+          </list>
+        </option>
+      </component>
+    </defaultProject>
+  </component>
+</application>
